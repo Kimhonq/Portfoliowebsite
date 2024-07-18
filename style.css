@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+}
+
+
+.profile{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    height:100vh;
+    width: 100%;
+}
+
+.profile img{
+    width: 200px;
+    height: 200px;
+}
+
+.profile .dis_name,
+.profile h2{
+    font-weight: 200;
+    color: rgba(199, 187, 187, 0.918);
+}
+
+.profile .dis_name{
+    font-size: 50px;;
+    text-transform: uppercase;
+}
+.profile h2{
+    font-size: 20px;
+    color:rgba(199, 187, 187, 0.918);
+}
+
+/*about me*/
+
+.about_me{
+    margin: 0 auto;
+    width:80%;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.5rem;
+    column-gap: 2.5rem;
+
+}
+.about_me h1{
+    margin-top: 2.5rem;
+}
+
+.about_me .box_content{
+    width:100%;
+    
+    
+}
+.box_content h1,
+.about_me .box_content #p_img_1{
+    /* padding-left: 5rem; */
+}
+
+.about_me .box_content #p_img_2{
+    padding-right: 5rem;
+}
+
+.about_me .box_content img{
+    width: 250px;
+    height: 100%;
+}
+
+.about_me .box_content #img_1,
+.about_me .box_content #img_2{
+    padding-left:10rem;
+}
+
+
+
+.work_exp{
+    height: 80vh;
+    margin: 0 auto;
+    margin: 0 auto;
+    width:80%;
+
+}
+
+.work_exp .discribe_exp{
+    display: flex;
+    gap: 2.5rem;
+    padding: 5rem;
+}
+.work_exp  h1{
+    padding-left: 5rem;
+}
+
+.work_exp .discribe_exp img{
+    width: 300px;
+}
+
+.skill_Edu{
+    margin: 0 auto;
+    width:80%;
+    height: 100vh;
+    padding: 5rem;
+}
+.skills h1{
+    margin-top: 5rem;
+}
+
+.skills img{
+    width: 300px;
+    height:300px;
+    
+}
+
+.skills{
+    margin-top: 5rem;
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill img{
+    width: 300px;
+}
+
+.skill_Edu h1{
+    display: flex;
+    justify-content: center;
+}
+
+.portfolios{
+    width: 100%;
+    align-items: center; 
+    margin-top: 300px; 
+    
+}
+.portfolios h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+.portfolio_projects{
+    margin: 0 auto;
+    width:80%;
+    display: grid;
+    grid-template-columns: 200px 250px 200px;
+    gap: 1.5rem;
+    place-content: center;
+    padding: 1.5rem;
+}
+.portfolio_projects img{
+    width: 100%;
+}
+
+#copyright{
+    width: 100%;
+    height:25vh;
+    background: gray;
+    color: #fff;
+    padding: 1.5rem;
+    margin-top: 1.5em;
+}
+#inbox{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+}
